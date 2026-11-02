@@ -1,0 +1,11 @@
+/* Via Medica — only additional product options */
+.vm-extra-product-option{display:flex!important;flex-direction:row!important;flex-wrap:wrap!important;align-items:center!important;justify-content:flex-start!important;gap:8px!important;width:100%!important;margin:10px 0 14px!important}
+.vm-extra-product-option .t-product__option-item_buttons{display:inline-flex!important;float:none!important;flex:0 0 auto!important;width:auto!important;max-width:none!important;min-height:34px!important;align-items:center!important;justify-content:center!important;padding:8px 12px!important;margin:0!important;box-sizing:border-box!important;border:1px solid #DCE0E7!important;border-radius:10px!important;background:#FDFBFC!important;cursor:pointer;transition:background .2s ease,border-color .2s ease}
+.vm-extra-product-option .t-product__option-checkmark{display:none!important}
+.vm-extra-product-option .t-product__option-title{display:inline!important;width:auto!important;font-family:"Cormorant",Georgia,serif!important;font-size:12px!important;line-height:1.3!important;color:#12294B!important;white-space:nowrap!important}
+.vm-extra-product-option .t-product__option-item_active:not(.t-product__option-item_disabled):not(:has(input:disabled)){background:#12294B!important;border-color:#12294B!important}
+.vm-extra-product-option .t-product__option-item_active:not(.t-product__option-item_disabled):not(:has(input:disabled)) .t-product__option-title{color:#fff!important}
+.vm-extra-product-option .t-product__option-item_buttons:not(.t-product__option-item_disabled):not(:has(input:disabled)):hover{border-color:#12294B!important}
+.vm-extra-product-option .t-product__option-item_disabled,.vm-extra-product-option .t-product__option-item_buttons:has(input:disabled){background:#F5F5F6!important;border-color:#E8E8EC!important;opacity:.5!important;cursor:not-allowed!important}
+.vm-extra-product-option .t-product__option-item_disabled .t-product__option-title,.vm-extra-product-option .t-product__option-item_buttons:has(input:disabled) .t-product__option-title{color:#858B96!important}
+@media(max-width:640px){.vm-extra-product-option{gap:8px!important}.vm-extra-product-option .t-product__option-item_buttons{min-height:34px!important;padding:8px 12px!important}}
